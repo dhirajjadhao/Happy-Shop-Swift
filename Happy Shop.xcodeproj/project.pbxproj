@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BB2CDE36E4F50A577441250 /* Pods_Happy_Shop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 770C3BA71B81A730E49DCA09 /* Pods_Happy_Shop.framework */; };
+		FF7DF0ED1CCFE6A700827C98 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7DF0EC1CCFE6A700827C98 /* ProductDetailViewController.swift */; };
+		FF7DF0F01CCFE94600827C98 /* RealmObjectClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7DF0EF1CCFE94600827C98 /* RealmObjectClass.swift */; };
+		FF7DF0F81CD0903500827C98 /* UIButton+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7DF0F51CD0903500827C98 /* UIButton+Badge.m */; };
+		FF7DF0F91CD0903500827C98 /* UIBarButtonItem+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7DF0F71CD0903500827C98 /* UIBarButtonItem+Badge.m */; };
+		FF7DF0FF1CD0940B00827C98 /* ProductCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7DF0FE1CD0940B00827C98 /* ProductCartViewController.swift */; };
+		FF7DF1011CD0A19C00827C98 /* ProductCartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7DF1001CD0A19C00827C98 /* ProductCartCell.swift */; };
+		FF7DF1031CD0A1B600827C98 /* ProductSummeryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7DF1021CD0A1B600827C98 /* ProductSummeryCell.swift */; };
 		FF923D361CCF8D4D00E74445 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF923D351CCF8D4D00E74445 /* AppDelegate.swift */; };
-		FF923D381CCF8D4D00E74445 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF923D371CCF8D4D00E74445 /* ViewController.swift */; };
 		FF923D3B1CCF8D4D00E74445 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF923D391CCF8D4D00E74445 /* Main.storyboard */; };
-		FF923D3D1CCF8D4D00E74445 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF923D3C1CCF8D4D00E74445 /* Assets.xcassets */; };
 		FF923D401CCF8D4D00E74445 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF923D3E1CCF8D4D00E74445 /* LaunchScreen.storyboard */; };
 		FF923D4B1CCF8D4D00E74445 /* Happy_ShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF923D4A1CCF8D4D00E74445 /* Happy_ShopTests.swift */; };
 		FF923D561CCF8D4D00E74445 /* Happy_ShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF923D551CCF8D4D00E74445 /* Happy_ShopUITests.swift */; };
+		FF923D641CCF8D7E00E74445 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF923D631CCF8D7E00E74445 /* Assets.xcassets */; };
+		FF923D681CCF8DC600E74445 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF923D671CCF8DC600E74445 /* HomeViewController.swift */; };
+		FF923D6B1CCF8EB700E74445 /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF923D6A1CCF8EB700E74445 /* HomeViewCell.swift */; };
+		FF923D701CCF9DB400E74445 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF923D6F1CCF9DB400E74445 /* ProductListViewController.swift */; };
+		FF923D741CCF9E3A00E74445 /* ProductListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF923D731CCF9E3A00E74445 /* ProductListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +45,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		770C3BA71B81A730E49DCA09 /* Pods_Happy_Shop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Happy_Shop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8D67A3F00586092B1501BFC /* Pods-Happy Shop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Happy Shop.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Happy Shop/Pods-Happy Shop.debug.xcconfig"; sourceTree = "<group>"; };
+		EC104DEA7DF264FC9CE6BFE0 /* Pods-Happy Shop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Happy Shop.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Happy Shop/Pods-Happy Shop.release.xcconfig"; sourceTree = "<group>"; };
+		FF3BB8CD1CCFC41400ED6A7B /* HappyShop-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "HappyShop-Bridging-Header.h"; path = "../HappyShop-Bridging-Header.h"; sourceTree = "<group>"; };
+		FF7DF0EC1CCFE6A700827C98 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		FF7DF0EF1CCFE94600827C98 /* RealmObjectClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmObjectClass.swift; sourceTree = "<group>"; };
+		FF7DF0F41CD0903500827C98 /* UIButton+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Badge.h"; sourceTree = "<group>"; };
+		FF7DF0F51CD0903500827C98 /* UIButton+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Badge.m"; sourceTree = "<group>"; };
+		FF7DF0F61CD0903500827C98 /* UIBarButtonItem+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Badge.h"; sourceTree = "<group>"; };
+		FF7DF0F71CD0903500827C98 /* UIBarButtonItem+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Badge.m"; sourceTree = "<group>"; };
+		FF7DF0FE1CD0940B00827C98 /* ProductCartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCartViewController.swift; sourceTree = "<group>"; };
+		FF7DF1001CD0A19C00827C98 /* ProductCartCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCartCell.swift; sourceTree = "<group>"; };
+		FF7DF1021CD0A1B600827C98 /* ProductSummeryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductSummeryCell.swift; sourceTree = "<group>"; };
 		FF923D321CCF8D4D00E74445 /* Happy Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Happy Shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF923D351CCF8D4D00E74445 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF923D371CCF8D4D00E74445 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FF923D3A1CCF8D4D00E74445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FF923D3C1CCF8D4D00E74445 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF923D3F1CCF8D4D00E74445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF923D411CCF8D4D00E74445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF923D461CCF8D4D00E74445 /* Happy ShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Happy ShopTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +69,11 @@
 		FF923D511CCF8D4D00E74445 /* Happy ShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Happy ShopUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF923D551CCF8D4D00E74445 /* Happy_ShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Happy_ShopUITests.swift; sourceTree = "<group>"; };
 		FF923D571CCF8D4D00E74445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF923D631CCF8D7E00E74445 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF923D671CCF8DC600E74445 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FF923D6A1CCF8EB700E74445 /* HomeViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
+		FF923D6F1CCF9DB400E74445 /* ProductListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		FF923D731CCF9E3A00E74445 /* ProductListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BB2CDE36E4F50A577441250 /* Pods_Happy_Shop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +102,130 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		89FCD73DD2DDAB1C5300A7A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8D67A3F00586092B1501BFC /* Pods-Happy Shop.debug.xcconfig */,
+				EC104DEA7DF264FC9CE6BFE0 /* Pods-Happy Shop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD09127913CB47DFD53EB9DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				770C3BA71B81A730E49DCA09 /* Pods_Happy_Shop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF7DF0EB1CCFE68100827C98 /* Product Detail View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF7DF0EC1CCFE6A700827C98 /* ProductDetailViewController.swift */,
+			);
+			name = "Product Detail View Controller";
+			sourceTree = "<group>";
+		};
+		FF7DF0EE1CCFE91E00827C98 /* Realm Object Class */ = {
+			isa = PBXGroup;
+			children = (
+				FF7DF0EF1CCFE94600827C98 /* RealmObjectClass.swift */,
+			);
+			name = "Realm Object Class";
+			sourceTree = "<group>";
+		};
+		FF7DF0F11CD08F8F00827C98 /* Supprting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF923D411CCF8D4D00E74445 /* Info.plist */,
+				FF7DF0FA1CD0934B00827C98 /* Bridging Header */,
+				FF7DF0F21CD08FC000827C98 /* Supporting Classes */,
+			);
+			name = "Supprting Files";
+			sourceTree = "<group>";
+		};
+		FF7DF0F21CD08FC000827C98 /* Supporting Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FF7DF0F31CD0902600827C98 /* Button Badge */,
+			);
+			name = "Supporting Classes";
+			sourceTree = "<group>";
+		};
+		FF7DF0F31CD0902600827C98 /* Button Badge */ = {
+			isa = PBXGroup;
+			children = (
+				FF7DF0F41CD0903500827C98 /* UIButton+Badge.h */,
+				FF7DF0F51CD0903500827C98 /* UIButton+Badge.m */,
+				FF7DF0F61CD0903500827C98 /* UIBarButtonItem+Badge.h */,
+				FF7DF0F71CD0903500827C98 /* UIBarButtonItem+Badge.m */,
+			);
+			name = "Button Badge";
+			sourceTree = "<group>";
+		};
+		FF7DF0FA1CD0934B00827C98 /* Bridging Header */ = {
+			isa = PBXGroup;
+			children = (
+				FF3BB8CD1CCFC41400ED6A7B /* HappyShop-Bridging-Header.h */,
+			);
+			name = "Bridging Header";
+			sourceTree = "<group>";
+		};
+		FF7DF0FB1CD0939400827C98 /* Product Cart View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF7DF0FE1CD0940B00827C98 /* ProductCartViewController.swift */,
+				FF7DF0FC1CD093B000827C98 /* Product Cart Cell */,
+				FF7DF0FD1CD093BC00827C98 /* Product Summery Cell */,
+			);
+			name = "Product Cart View Controller";
+			sourceTree = "<group>";
+		};
+		FF7DF0FC1CD093B000827C98 /* Product Cart Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FF7DF1001CD0A19C00827C98 /* ProductCartCell.swift */,
+			);
+			name = "Product Cart Cell";
+			sourceTree = "<group>";
+		};
+		FF7DF0FD1CD093BC00827C98 /* Product Summery Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FF7DF1021CD0A1B600827C98 /* ProductSummeryCell.swift */,
+			);
+			name = "Product Summery Cell";
+			sourceTree = "<group>";
+		};
+		FF7DF1041CD0C31300827C98 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				FF923D3E1CCF8D4D00E74445 /* LaunchScreen.storyboard */,
+				FF923D391CCF8D4D00E74445 /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		FF7DF1051CD0C32800827C98 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FF923D661CCF8DA900E74445 /* Home View Controller */,
+				FF923D6E1CCF9D8A00E74445 /* Product List View Controller */,
+				FF7DF0EB1CCFE68100827C98 /* Product Detail View Controller */,
+				FF7DF0FB1CD0939400827C98 /* Product Cart View Controller */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		FF7DF1061CD0C36400827C98 /* Dababase */ = {
+			isa = PBXGroup;
+			children = (
+				FF7DF0EE1CCFE91E00827C98 /* Realm Object Class */,
+			);
+			name = Dababase;
+			sourceTree = "<group>";
+		};
 		FF923D291CCF8D4D00E74445 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +233,8 @@
 				FF923D491CCF8D4D00E74445 /* Happy ShopTests */,
 				FF923D541CCF8D4D00E74445 /* Happy ShopUITests */,
 				FF923D331CCF8D4D00E74445 /* Products */,
+				89FCD73DD2DDAB1C5300A7A4 /* Pods */,
+				DD09127913CB47DFD53EB9DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +251,12 @@
 		FF923D341CCF8D4D00E74445 /* Happy Shop */ = {
 			isa = PBXGroup;
 			children = (
-				FF923D351CCF8D4D00E74445 /* AppDelegate.swift */,
-				FF923D371CCF8D4D00E74445 /* ViewController.swift */,
-				FF923D391CCF8D4D00E74445 /* Main.storyboard */,
-				FF923D3C1CCF8D4D00E74445 /* Assets.xcassets */,
-				FF923D3E1CCF8D4D00E74445 /* LaunchScreen.storyboard */,
-				FF923D411CCF8D4D00E74445 /* Info.plist */,
+				FF7DF1041CD0C31300827C98 /* Storyboard */,
+				FF923D651CCF8DA200E74445 /* App Delagate */,
+				FF7DF1051CD0C32800827C98 /* Controllers */,
+				FF7DF1061CD0C36400827C98 /* Dababase */,
+				FF7DF0F11CD08F8F00827C98 /* Supprting Files */,
+				FF923D631CCF8D7E00E74445 /* Assets.xcassets */,
 			);
 			path = "Happy Shop";
 			sourceTree = "<group>";
@@ -125,6 +279,48 @@
 			path = "Happy ShopUITests";
 			sourceTree = "<group>";
 		};
+		FF923D651CCF8DA200E74445 /* App Delagate */ = {
+			isa = PBXGroup;
+			children = (
+				FF923D351CCF8D4D00E74445 /* AppDelegate.swift */,
+			);
+			name = "App Delagate";
+			sourceTree = "<group>";
+		};
+		FF923D661CCF8DA900E74445 /* Home View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF923D671CCF8DC600E74445 /* HomeViewController.swift */,
+				FF923D691CCF8E9A00E74445 /* Home View Cell */,
+			);
+			name = "Home View Controller";
+			sourceTree = "<group>";
+		};
+		FF923D691CCF8E9A00E74445 /* Home View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FF923D6A1CCF8EB700E74445 /* HomeViewCell.swift */,
+			);
+			name = "Home View Cell";
+			sourceTree = "<group>";
+		};
+		FF923D6E1CCF9D8A00E74445 /* Product List View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF923D6F1CCF9DB400E74445 /* ProductListViewController.swift */,
+				FF923D711CCF9E1800E74445 /* Product List Cell */,
+			);
+			name = "Product List View Controller";
+			sourceTree = "<group>";
+		};
+		FF923D711CCF9E1800E74445 /* Product List Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FF923D731CCF9E3A00E74445 /* ProductListCell.swift */,
+			);
+			name = "Product List Cell";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +328,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF923D5A1CCF8D4D00E74445 /* Build configuration list for PBXNativeTarget "Happy Shop" */;
 			buildPhases = (
+				E7050291FE6FBA59C3571585 /* Check Pods Manifest.lock */,
 				FF923D2E1CCF8D4D00E74445 /* Sources */,
 				FF923D2F1CCF8D4D00E74445 /* Frameworks */,
 				FF923D301CCF8D4D00E74445 /* Resources */,
+				0CECC64AD2FBFCA75A2722BD /* Embed Pods Frameworks */,
+				AF8B99469443DE7E33F1A084 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,7 +429,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF923D401CCF8D4D00E74445 /* LaunchScreen.storyboard in Resources */,
-				FF923D3D1CCF8D4D00E74445 /* Assets.xcassets in Resources */,
+				FF923D641CCF8D7E00E74445 /* Assets.xcassets in Resources */,
 				FF923D3B1CCF8D4D00E74445 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +450,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CECC64AD2FBFCA75A2722BD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Happy Shop/Pods-Happy Shop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF8B99469443DE7E33F1A084 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Happy Shop/Pods-Happy Shop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7050291FE6FBA59C3571585 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FF923D2E1CCF8D4D00E74445 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF923D381CCF8D4D00E74445 /* ViewController.swift in Sources */,
+				FF7DF0FF1CD0940B00827C98 /* ProductCartViewController.swift in Sources */,
 				FF923D361CCF8D4D00E74445 /* AppDelegate.swift in Sources */,
+				FF923D681CCF8DC600E74445 /* HomeViewController.swift in Sources */,
+				FF7DF0F01CCFE94600827C98 /* RealmObjectClass.swift in Sources */,
+				FF7DF1011CD0A19C00827C98 /* ProductCartCell.swift in Sources */,
+				FF7DF0F81CD0903500827C98 /* UIButton+Badge.m in Sources */,
+				FF923D701CCF9DB400E74445 /* ProductListViewController.swift in Sources */,
+				FF923D6B1CCF8EB700E74445 /* HomeViewCell.swift in Sources */,
+				FF7DF0F91CD0903500827C98 /* UIBarButtonItem+Badge.m in Sources */,
+				FF923D741CCF9E3A00E74445 /* ProductListCell.swift in Sources */,
+				FF7DF1031CD0A1B600827C98 /* ProductSummeryCell.swift in Sources */,
+				FF7DF0ED1CCFE6A700827C98 /* ProductDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,23 +654,27 @@
 		};
 		FF923D5B1CCF8D4D00E74445 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8D67A3F00586092B1501BFC /* Pods-Happy Shop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Happy Shop/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Dhiraj-Jadhao.Happy-Shop";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HappyShop-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		FF923D5C1CCF8D4D00E74445 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC104DEA7DF264FC9CE6BFE0 /* Pods-Happy Shop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Happy Shop/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Dhiraj-Jadhao.Happy-Shop";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HappyShop-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -482,6 +743,7 @@
 				FF923D5C1CCF8D4D00E74445 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF923D5D1CCF8D4D00E74445 /* Build configuration list for PBXNativeTarget "Happy ShopTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +752,7 @@
 				FF923D5F1CCF8D4D00E74445 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF923D601CCF8D4D00E74445 /* Build configuration list for PBXNativeTarget "Happy ShopUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +761,7 @@
 				FF923D621CCF8D4D00E74445 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
