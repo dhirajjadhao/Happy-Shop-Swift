@@ -1,0 +1,31 @@
+PODS:
+  - Alamofire (3.3.1)
+  - AlamofireImage (2.4.0):
+    - Alamofire (~> 3.3)
+  - CCBottomRefreshControl (0.5.1):
+    - Masonry (~> 0.6.2)
+  - Masonry (0.6.4)
+  - Realm (0.99.1):
+    - Realm/Headers (= 0.99.1)
+  - Realm/Headers (0.99.1)
+  - RealmSwift (0.99.1):
+    - Realm (= 0.99.1)
+  - SVProgressHUD (2.0.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.3)
+  - AlamofireImage (~> 2.4.0)
+  - CCBottomRefreshControl
+  - RealmSwift
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Alamofire: 369bc67b6f5ac33ded3648d7bd21c5bfb91c2ecc
+  AlamofireImage: 87408b652e0f5ae5fe364035f15aea8b9b24c77e
+  CCBottomRefreshControl: 57a596348855260f627ffc2b311328ed15b94877
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  Realm: 522a0cc8e1f8755ee56d7dc16ca0fc380d045766
+  RealmSwift: 1d9c4299ef5dbf575c5da09fc706ed726327cfa0
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+
+COCOAPODS: 0.39.0

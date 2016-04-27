@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2AA4342D25EAFB6476FF1E95358FABBC2CE5789E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B57F52E7C50DB5A6681BAED82495A77111742578" : 0,
+    "2AA4342D25EAFB6476FF1E95358FABBC2CE5789E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0A549918-09FE-4A84-9879-307E5137453C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B57F52E7C50DB5A6681BAED82495A77111742578" : "..",
+    "2AA4342D25EAFB6476FF1E95358FABBC2CE5789E" : "Happy%20Shop\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Happy Shop",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Happy Shop.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dhirajjadhao\/Happy-Shop-Swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2AA4342D25EAFB6476FF1E95358FABBC2CE5789E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dhirajjadhao\/Happy-Shop.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B57F52E7C50DB5A6681BAED82495A77111742578"
+    }
+  ]
+}
